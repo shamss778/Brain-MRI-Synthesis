@@ -59,3 +59,10 @@ The model trains for 5 epochs and displays:
 3. Run the training notebook
 4. Monitor training progress and generated samples
 
+## Training Recommendations
+
+Based on the 100-epoch results:
+- **Minimum viable training**: 50-75 epochs for basic results
+- **Good quality results**: 100-150 epochs (current results show clear improvement)
+- **High quality results**: 200+ epochs for optimal image generation
+- Monitor loss curves and generated samples to determine optimal stopping point
